@@ -3,13 +3,10 @@ package test.bean
 import com.fasterxml.jackson.annotation.JsonFormat
 import io.swagger.annotations.ApiModelProperty
 import java.sql.Timestamp
-import javax.persistence.Column
-import javax.persistence.Entity
-import javax.persistence.Id
-import javax.persistence.Table
 
 data class Bean(var id: Int, var name: String)
 
+/*
 @Entity
 @Table(name = "sdb_table_relation")
 data class Table(
@@ -28,6 +25,7 @@ data class Table(
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     var modify_time: Timestamp?
 )
+*/
 
 
 data class BaseParam(
